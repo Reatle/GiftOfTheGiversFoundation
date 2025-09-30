@@ -1,21 +1,57 @@
 GiftOfTheGiversApp
 
-GiftOfTheGiversApp is an ASP.NET Core MVC web application that helps manage disaster reports, donations, and volunteer assignments for a humanitarian organization. Users can register, log in, submit reports, track donations, and manage volunteers efficiently.
+GiftOfTheGiversApp is an ASP.NET Core MVC web application designed to manage disaster reports, donations, and volunteer assignments for a humanitarian organization. The system allows users to register, log in, submit disaster reports, track donations, and manage volunteers effectively.
 
 Features
 
-User Management: Registration, login, and role-based access (Donor, Volunteer, Admin)
+User Management
 
-Disaster Reports: Submit, edit, view, and track reports with location, severity, and status
+Registration and login for Donors, Volunteers, and Admins
 
-Donations: Track donation type, quantity, status, and distribution notes
+Role-based access control
 
-Volunteers: Manage availability, skills, task assignments, and task status
+Password hashing for secure authentication
 
-UI/UX: Responsive Bootstrap interface with dropdowns for controlled inputs and validation
+Disaster Reports
 
-Technologies
+Submit and manage disaster reports
 
-ASP.NET Core MVC, C#, Entity Framework Core
+Track location, severity, and status
 
-SQL
+Edit, view, and delete reports
+
+Donations
+
+Record donations with type (Food, Clothing, Medical)
+
+Track quantity, donation date, and distribution status
+
+Add notes for delivery or distribution
+
+Volunteers
+
+Track volunteer availability, skills, and task assignments
+
+Manage task status (Assigned, Completed)
+
+Assign tasks and track progress
+
+UI/UX
+
+Responsive Bootstrap-based interface
+
+Dropdown menus for controlled inputs (role, donation type, status, task status)
+
+Validation messages and error handling
+
+Session-based user login and dashboard navigation
+
+Technologies Used
+
+Backend: ASP.NET Core MVC, C#, Entity Framework Core, SQL Server
+
+Frontend: HTML, CSS, Bootstrap 5, Razor Pages
+
+Database: SQL Server (Code First with Entity Framework)
+
+Authentication: Session-based login with password hashing
